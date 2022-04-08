@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net452</TargetFramework>
+    </PropertyGroup>
+    <Import Project="GameFolder.props" Condition="Exists('./GameFolder.props')" />
+
+    <ItemGroup>
+        <Reference Include="0Harmony">
+          <HintPath>$(GameFolder)\0Harmony.dll</HintPath>
+        </Reference>
+        <Reference Include="AutoEtd, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>$(GameFolder)\AutoEtd.exe</HintPath>
+        </Reference>
+        <Reference Include="AutoEtd.Core, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>$(GameFolder)\AutoEtd.Core.dll</HintPath>
+        </Reference>
+        <Reference Include="Prism" Private="false">
+          <HintPath>$(GameFolder)\Prism.dll</HintPath>
+        </Reference>
+        <Reference Include="Prism.Unity.Wpf, Version=7.2.0.1422, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59">
+          <HintPath>$(GameFolder)\Prism.Unity.Wpf.dll</HintPath>
+        </Reference>
+        <Reference Include="Prism.Wpf, Version=7.2.0.1422, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59">
+          <HintPath>$(GameFolder)\Prism.Wpf.dll</HintPath>
+        </Reference>
+        <Reference Include="Remotion.Linq, Version=2.1.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b">
+          <HintPath>$(GameFolder)\Remotion.Linq.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Reactive.Core, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263">
+          <HintPath>$(GameFolder)\System.Reactive.Core.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Reactive.Interfaces, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263">
+          <HintPath>$(GameFolder)\System.Reactive.Interfaces.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Reactive.Linq, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263">
+          <HintPath>$(GameFolder)\System.Reactive.Linq.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Reactive.PlatformServices, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263">
+          <HintPath>$(GameFolder)\System.Reactive.PlatformServices.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Reactive.Windows.Threading, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263">
+          <HintPath>$(GameFolder)\System.Reactive.Windows.Threading.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+</Project>
