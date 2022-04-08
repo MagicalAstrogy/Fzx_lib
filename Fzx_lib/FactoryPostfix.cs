@@ -24,6 +24,8 @@ namespace Fzx_lib
             });
             addFactory(() => new 见切());
             addFactory(() => new 精神涣散());
+            addFactory(() => new 我的领域());
+            addFactory(() => new 世界());
         }
     }
 }
