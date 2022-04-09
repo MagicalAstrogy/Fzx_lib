@@ -26,6 +26,12 @@ namespace Fzx_lib
             addFactory(() => new 精神涣散());
             addFactory(() => new 我的领域());
             addFactory(() => new 世界());
+            addFactory(() => new 衣不遮体());
+            addFactory(() => new 多层护甲());
+            addFactory(() => new 缝补());
+            addFactory(() => new 灵击());
+            addFactory(() => new 魔力耗尽());
+            
         }
     }
 }

@@ -23,6 +23,14 @@ namespace Fzx_lib
             });
         }
         
+        public override string DisplayName
+        {
+            get
+            {
+                return string.Format("{0}({1}层)", base.Name, base.Level);
+            }
+        }
+        
         public override bool CanAdd(Battler target)
         {
             return !target.PassiveEffects.OfType<SeeCut>().Any();
