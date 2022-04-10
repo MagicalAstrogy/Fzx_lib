@@ -15,6 +15,8 @@ namespace Fzx_lib
         
 
         public string GuardMessage { get; set; }
+        
+        public string TrapGuard { get; set; }
         public 见切 ParentBuff { get; set; } 
         public override string Text => "抵挡攻击";
     }

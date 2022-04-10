@@ -9,6 +9,7 @@ namespace Fzx_lib
         {
             Console.WriteLine("Hello World");
             var harmony = new Harmony("com.company.project.product");
+            ConditionSelectPrefix.Initialize(harmony);
             harmony.PatchAll();
         }
         public static void Main()

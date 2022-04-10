@@ -19,6 +19,7 @@ namespace Fzx_lib
             base.Effects.Add(new SeeCut
             {
                 GuardMessage = "但是(target)由于见切的效果，防止了攻击，并反击了敌人！",
+                TrapGuard = "但是(target)由于见切的效果，阻止了陷阱的运作！",
                 ParentBuff = this
             });
         }

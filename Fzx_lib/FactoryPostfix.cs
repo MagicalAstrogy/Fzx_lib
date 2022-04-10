@@ -6,7 +6,9 @@ using System;
 using System.Reflection;
 using System.Linq.Expressions;
 using System.Linq;
+using System.Xml.Serialization;
 using ZGames.AutoEtd.GameSystem.Battle;
+using ZGames.AutoEtd.GameSystem.Battle.Conditions;
 
 namespace Fzx_lib
 {
